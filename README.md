@@ -90,7 +90,3 @@ The application follows a basic SOA pattern where:
 - This is a basic demo and does not include error handling, authentication, or production-ready features.
 - The services use in-memory data for simplicity.
 - Ensure the services are running before executing the client app.
-
-## License
-
-ISC
