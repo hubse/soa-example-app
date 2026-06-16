@@ -5,6 +5,7 @@ This is a simple demonstration of a Service-Oriented Architecture (SOA) applicat
 Services are language-agnostic
 Any client can use them as long as it understands the protocol (usually HTTP + JSON).
 
+```text
                 ┌─────────────┐
                 │ User Service│
                 └──────┬──────┘
@@ -12,7 +13,7 @@ Any client can use them as long as it understands the protocol (usually HTTP + J
    ┌──────────┬────────┼─────────┬──────────┐
    │          │        │         │          │
  Web App   Mobile App  Java App  Python App  IoT Device
-
+```
 
 ## App Architecture
 
