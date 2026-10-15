@@ -85,9 +85,3 @@ The application follows a basic SOA pattern where:
 4. **Testing the Services**:
    - User Service: `curl http://localhost:5001/user/1`
    - Order Service: `curl http://localhost:5002/order/101`
-
-## Notes
-
-- This is a basic demo and does not include error handling, authentication, or production-ready features.
-- The services use in-memory data for simplicity.
-- Ensure the services are running before executing the client app.
